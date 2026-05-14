@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+🍔 Projeto App Delivery - React Native
+Este repositório contém a atividade prática de desenvolvimento mobile para o curso de Análise e Desenvolvimento de Sistemas. O objetivo foi implementar um card de produto funcional para um sistema de delivery, utilizando componentes reutilizáveis e gerenciamento de estado.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📂 Organização do Projeto
+Para manter o versionamento organizado, o código-fonte principal foi estruturado dentro da pasta:
 
-## Get started
+AppDelivery/: Contém os arquivos de configuração e lógica do aplicativo.
 
-1. Install dependencies
+App.js: Ponto de entrada que gerencia os dados do produto (JSON).
 
-   ```bash
-   npm install
-   ```
+components/ProductCard.js: Componente funcional com a lógica de pedidos.
 
-2. Start the app
+A estrutura de pastas do projeto foi organizada da seguinte forma:
 
-   ```bash
-   npx expo start
-   ```
+AppDelivery/
+├── components/
+│   └── ProductCard.js  # Componente principal do card
+├── App.js              # Arquivo raiz que gerencia os dados
+└── app.json            # Configurações do Expo
 
-In the output, you'll find options to open the app in a
+🚀 Tecnologias e Conceitos Aplicados
+React Native & Expo: Framework e ambiente de execução.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Hooks (useState): Utilizado para controlar a quantidade de itens e o estado de "favorito".
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Props: Passagem dinâmica de dados entre componentes.
 
-## Get a fresh project
+Flexbox: Layout responsivo para dispositivos móveis.
 
-When you're ready, run:
+🛠️ Como Visualizar o Código
+Acesse a pasta AppDelivery.
 
-```bash
-npm run reset-project
-```
+O componente principal solicitado na atividade está em components/ProductCard.js.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+A integração e o envio dos dados JSON podem ser vistos no App.js.
